@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "feynpy"
+version = "1.0.0"
+description = "Symbolic tool for QFT calculations"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+  { name = "Francesco Montagno" }
+]
+requires-python = ">=3.11"
+
+dependencies = [
+  "sympy>=1.12",
+]
+
+[project.urls]
+Homepage = "https://github.com/Francesco-Montagno/feynpy"
+Issues = "https://github.com/Francesco-Montagno/feynpy/issues"
+
+[tool.setuptools]
+packages = ["feynpy"]
