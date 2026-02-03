@@ -82,8 +82,8 @@ Bar(psi) # Returns psi^dagger gamma^0
 ```
 ---
 
-### Example: e+ e- -> γ γ  $ Amplitude Calculation
-This Jupyter notebook snippet demonstrates how to compute the amplitude for the process \( e^+ e^- \to \gamma \gamma \) using FeynPy. The amplitude expression is obtained using the `FeynCalc` package in `Mathematica` as a reference.
+### Example: e+ e- -> γ γ  Amplitude Calculation
+This Jupyter notebook snippet demonstrates how to compute the amplitude for the process e+ e- -> γ γ using FeynPy. The amplitude expression is obtained using the `FeynCalc` package in `Mathematica` as a reference.
 
 ```python
 from feynpy import *
