@@ -1,4 +1,3 @@
-![Build](https://github.com/username/repo/actions/workflows/main.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 # FeynPy
