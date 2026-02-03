@@ -82,8 +82,8 @@ Bar(psi) # Returns psi^dagger gamma^0
 ```
 ---
 
-### Example: e+ e- -> γ γ  Amplitude Calculation
-This Jupyter notebook snippet demonstrates how to compute the amplitude for the process e+ e- -> γ γ using FeynPy. The amplitude expression is obtained using the `FeynCalc` package in `Mathematica` as a reference.
+### Example: e+ e- > γ γ  Amplitude Calculation
+This Jupyter notebook snippet demonstrates how to compute the amplitude for the process e+ e- > γ γ using FeynPy. The amplitude expression is obtained using the `FeynCalc` package in `Mathematica` as a reference.
 
 ```python
 from feynpy import *
@@ -156,11 +156,11 @@ for h1 in [+1/2, -1/2]:
 ## Example Notebooks
 In the `processes` directory, you can find example Jupyter notebooks demonstrating various physical processes:
 - **QED**
-  - `e+e->aa.ipynb` 
-  - `e+e->mu+mu-.ipynb` 
+  - `e+e- > aa.ipynb` 
+  - `e+e- > mu+mu-.ipynb` 
 
 - **Standard Model**
-  - `ee~->zz.ipynb`
+  - `e+e- > zz.ipynb`
 
 - **EFT**
   - `HHZZ.ipynb` — example of the EFT corrections to $ q\bar q \to ZZ $ coming from the EFT operator $ H^\dagger H W_{\mu\nu}^i W^{\mu\nu\,, i}$.
